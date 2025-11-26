@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98E292BB2ED6490F003F0E6A /* MusicServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E292BA2ED6490F003F0E6A /* MusicServiceManager.swift */; };
+		98E292BD2ED649E2003F0E6A /* PlaylistGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E292BC2ED649E2003F0E6A /* PlaylistGenerator.swift */; };
+		98E292C52ED6503F003F0E6A /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E292C42ED6503F003F0E6A /* FlowLayout.swift */; };
+		E30571E92EABA4DF0082DBE8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E30571E82EABA4DF0082DBE8 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF4849E2E86D83C0062BEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF484882E86D8390062BEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF4848F2E86D8390062BEF1;
+			remoteInfo = emolody2;
+		};
+		3EF484A82E86D83C0062BEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF484882E86D8390062BEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF4848F2E86D8390062BEF1;
+			remoteInfo = emolody2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EF484902E86D8390062BEF1 /* Emolody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emolody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF4849D2E86D83C0062BEF1 /* EmolodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmolodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF484A72E86D83C0062BEF1 /* EmolodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmolodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98759B292ED4C163000F5A28 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		98E292BA2ED6490F003F0E6A /* MusicServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicServiceManager.swift; sourceTree = "<group>"; };
+		98E292BC2ED649E2003F0E6A /* PlaylistGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistGenerator.swift; sourceTree = "<group>"; };
+		98E292C42ED6503F003F0E6A /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3E3379992E92BD8F00E01E16 /* Exceptions for "Emolody" folder in "Emolody" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3EF4848F2E86D8390062BEF1 /* Emolody */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3EF484922E86D8390062BEF1 /* Emolody */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3E3379992E92BD8F00E01E16 /* Exceptions for "Emolody" folder in "Emolody" target */,
+			);
+			path = Emolody;
+			sourceTree = "<group>";
+		};
+		3EF484A02E86D83C0062BEF1 /* emolody2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = emolody2Tests;
+			sourceTree = "<group>";
+		};
+		3EF484AA2E86D83C0062BEF1 /* emolody2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = emolody2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF4848D2E86D8390062BEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30571E92EABA4DF0082DBE8 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4849A2E86D83C0062BEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF484A42E86D83C0062BEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF484872E86D8390062BEF1 = {
+			isa = PBXGroup;
+			children = (
+				98E292BA2ED6490F003F0E6A /* MusicServiceManager.swift */,
+				98E292BC2ED649E2003F0E6A /* PlaylistGenerator.swift */,
+				98E292C42ED6503F003F0E6A /* FlowLayout.swift */,
+				98759B292ED4C163000F5A28 /* Untitled.swift */,
+				3EF484922E86D8390062BEF1 /* Emolody */,
+				3EF484A02E86D83C0062BEF1 /* emolody2Tests */,
+				3EF484AA2E86D83C0062BEF1 /* emolody2UITests */,
+				3EF484912E86D8390062BEF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF484912E86D8390062BEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF484902E86D8390062BEF1 /* Emolody.app */,
+				3EF4849D2E86D83C0062BEF1 /* EmolodyTests.xctest */,
+				3EF484A72E86D83C0062BEF1 /* EmolodyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF4848F2E86D8390062BEF1 /* Emolody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF484B12E86D83C0062BEF1 /* Build configuration list for PBXNativeTarget "Emolody" */;
+			buildPhases = (
+				3EF4848C2E86D8390062BEF1 /* Sources */,
+				3EF4848D2E86D8390062BEF1 /* Frameworks */,
+				3EF4848E2E86D8390062BEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3EF484922E86D8390062BEF1 /* Emolody */,
+			);
+			name = Emolody;
+			packageProductDependencies = (
+				E30571E82EABA4DF0082DBE8 /* FirebaseAuth */,
+			);
+			productName = emolody2;
+			productReference = 3EF484902E86D8390062BEF1 /* Emolody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF4849C2E86D83C0062BEF1 /* EmolodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF484B42E86D83C0062BEF1 /* Build configuration list for PBXNativeTarget "EmolodyTests" */;
+			buildPhases = (
+				3EF484992E86D83C0062BEF1 /* Sources */,
+				3EF4849A2E86D83C0062BEF1 /* Frameworks */,
+				3EF4849B2E86D83C0062BEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF4849F2E86D83C0062BEF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3EF484A02E86D83C0062BEF1 /* emolody2Tests */,
+			);
+			name = EmolodyTests;
+			packageProductDependencies = (
+			);
+			productName = emolody2Tests;
+			productReference = 3EF4849D2E86D83C0062BEF1 /* EmolodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF484A62E86D83C0062BEF1 /* EmolodyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF484B72E86D83C0062BEF1 /* Build configuration list for PBXNativeTarget "EmolodyUITests" */;
+			buildPhases = (
+				3EF484A32E86D83C0062BEF1 /* Sources */,
+				3EF484A42E86D83C0062BEF1 /* Frameworks */,
+				3EF484A52E86D83C0062BEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF484A92E86D83C0062BEF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3EF484AA2E86D83C0062BEF1 /* emolody2UITests */,
+			);
+			name = EmolodyUITests;
+			packageProductDependencies = (
+			);
+			productName = emolody2UITests;
+			productReference = 3EF484A72E86D83C0062BEF1 /* EmolodyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF484882E86D8390062BEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					3EF4848F2E86D8390062BEF1 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					3EF4849C2E86D83C0062BEF1 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 3EF4848F2E86D8390062BEF1;
+					};
+					3EF484A62E86D83C0062BEF1 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 3EF4848F2E86D8390062BEF1;
+					};
+				};
+			};
+			buildConfigurationList = 3EF4848B2E86D8390062BEF1 /* Build configuration list for PBXProject "Emolody" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF484872E86D8390062BEF1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E30571A72EAB9DE50082DBE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3EF484912E86D8390062BEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF4848F2E86D8390062BEF1 /* Emolody */,
+				3EF4849C2E86D83C0062BEF1 /* EmolodyTests */,
+				3EF484A62E86D83C0062BEF1 /* EmolodyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF4848E2E86D8390062BEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF4849B2E86D83C0062BEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF484A52E86D83C0062BEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF4848C2E86D8390062BEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E292BB2ED6490F003F0E6A /* MusicServiceManager.swift in Sources */,
+				98E292C52ED6503F003F0E6A /* FlowLayout.swift in Sources */,
+				98E292BD2ED649E2003F0E6A /* PlaylistGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF484992E86D83C0062BEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF484A32E86D83C0062BEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF4849F2E86D83C0062BEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF4848F2E86D8390062BEF1 /* Emolody */;
+			targetProxy = 3EF4849E2E86D83C0062BEF1 /* PBXContainerItemProxy */;
+		};
+		3EF484A92E86D83C0062BEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF4848F2E86D8390062BEF1 /* Emolody */;
+			targetProxy = 3EF484A82E86D83C0062BEF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EF484AF2E86D83C0062BEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EF484B02E86D83C0062BEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF484B22E86D83C0062BEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Emolody/EmolodyDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKJL94WQCM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emolody/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Emolody needs access to Apple Music to play songs and manage your playlists based on your mood.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Emolody We need access to the camera to detect the mood.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toleen.emolody2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF484B32E86D83C0062BEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKJL94WQCM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emolody/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Emolody needs access to Apple Music to play songs and manage your playlists based on your mood.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Emolody We need access to the camera to detect the mood.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toleen.emolody2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EF484B52E86D83C0062BEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toleen.emolody2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emolody.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emolody";
+			};
+			name = Debug;
+		};
+		3EF484B62E86D83C0062BEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toleen.emolody2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emolody.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emolody";
+			};
+			name = Release;
+		};
+		3EF484B82E86D83C0062BEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toleen.emolody2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emolody2;
+			};
+			name = Debug;
+		};
+		3EF484B92E86D83C0062BEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toleen.emolody2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emolody2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF4848B2E86D8390062BEF1 /* Build configuration list for PBXProject "Emolody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF484AF2E86D83C0062BEF1 /* Debug */,
+				3EF484B02E86D83C0062BEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF484B12E86D83C0062BEF1 /* Build configuration list for PBXNativeTarget "Emolody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF484B22E86D83C0062BEF1 /* Debug */,
+				3EF484B32E86D83C0062BEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF484B42E86D83C0062BEF1 /* Build configuration list for PBXNativeTarget "EmolodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF484B52E86D83C0062BEF1 /* Debug */,
+				3EF484B62E86D83C0062BEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF484B72E86D83C0062BEF1 /* Build configuration list for PBXNativeTarget "EmolodyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF484B82E86D83C0062BEF1 /* Debug */,
+				3EF484B92E86D83C0062BEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E30571A72EAB9DE50082DBE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E30571E82EABA4DF0082DBE8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E30571A72EAB9DE50082DBE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3EF484882E86D8390062BEF1 /* Project object */;
+}
